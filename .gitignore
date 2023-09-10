@@ -24,5 +24,10 @@ dist-ssr
 *.sw?
 
 # Secrets
-.env*
+.env
+.env.production
+.env.development
+.env.test
 .env.local*
+
+generated

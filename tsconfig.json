@@ -23,11 +23,14 @@
     /* Paths */
     "baseUrl": ".",
     "paths": {
-      "@domain/*": ["./src/domain/*"],
+      "@artifacts/*": ["./artifacts/*"],
       "@pages/*": ["./src/pages/*"],
-      "@routes/*": ["./src/routes/*"],
-      "@shared/*": ["./src/shared/*"]
-    }
+      "@providers/*": ["./src/providers/*"],
+      "@theme/*": ["./src/theme/*"],
+      "@ui/*": ["./src/ui/*"],
+      "@utils/*": ["./src/utils/*"]
+    },
+    "types": ["vite/client"]
   },
   "include": ["**/*.ts", "**/*.tsx"],
   "references": [{ "path": "./tsconfig.node.json" }]

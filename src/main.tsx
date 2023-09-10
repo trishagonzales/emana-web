@@ -1,11 +1,11 @@
-import "@fontsource-variable/inter";
-import "@shared/theme/global-styles.css";
-import React from "react";
-import ReactDOM from "react-dom/client";
-import Providers from "@shared/providers";
-import RootRoutes from "@routes/RootRoutes";
+import '@fontsource-variable/inter';
+import '@theme/globalStyles.css';
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import Providers from '@providers/index';
+import RootRoutes from './RootRoutes';
 
-ReactDOM.createRoot(document.getElementById("root")!).render(
+ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
     <Providers>
       <RootRoutes />
